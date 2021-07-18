@@ -13,6 +13,7 @@ function App() {
         <Switch>
           <Route path="/github-readme-generator-profile/" component={Content} exact />
           <Route path="/github-readme-generator-profile/about" component={About} exact />
+            <Route component={Content}/>
         </Switch>
         {/* <Content/> */}
       </div>
