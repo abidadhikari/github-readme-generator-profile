@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/github-readme-generator-profile/static/css/main.3fd45102.chunk.css",
+    "main.js": "/github-readme-generator-profile/static/js/main.0e39a7aa.chunk.js",
+    "main.js.map": "/github-readme-generator-profile/static/js/main.0e39a7aa.chunk.js.map",
+    "runtime-main.js": "/github-readme-generator-profile/static/js/runtime-main.5458a7fa.js",
+    "runtime-main.js.map": "/github-readme-generator-profile/static/js/runtime-main.5458a7fa.js.map",
+    "static/css/2.68b64559.chunk.css": "/github-readme-generator-profile/static/css/2.68b64559.chunk.css",
+    "static/js/2.218516a1.chunk.js": "/github-readme-generator-profile/static/js/2.218516a1.chunk.js",
+    "static/js/2.218516a1.chunk.js.map": "/github-readme-generator-profile/static/js/2.218516a1.chunk.js.map",
+    "index.html": "/github-readme-generator-profile/index.html",
+    "static/css/2.68b64559.chunk.css.map": "/github-readme-generator-profile/static/css/2.68b64559.chunk.css.map",
+    "static/css/main.3fd45102.chunk.css.map": "/github-readme-generator-profile/static/css/main.3fd45102.chunk.css.map",
+    "static/js/2.218516a1.chunk.js.LICENSE.txt": "/github-readme-generator-profile/static/js/2.218516a1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5458a7fa.js",
+    "static/css/2.68b64559.chunk.css",
+    "static/js/2.218516a1.chunk.js",
+    "static/css/main.3fd45102.chunk.css",
+    "static/js/main.0e39a7aa.chunk.js"
+  ]
+}
