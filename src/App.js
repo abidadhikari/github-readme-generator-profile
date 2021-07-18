@@ -11,8 +11,9 @@ function App() {
       <Header />
       <div className="contentContainer">
         <Switch>
-          <Route path="/" component={Content} exact />
-          <Route path="/about" component={About} exact />
+          <Route path="/github-readme-generator-profile/" component={Content} exact />
+          <Route path="/github-readme-generator-profile/about" component={About} exact />
+          <Route component={Content}/>
         </Switch>
         {/* <Content/> */}
       </div>
