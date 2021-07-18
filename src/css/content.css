@@ -1,0 +1,217 @@
+body {
+  background-color: #0d1117;
+}
+
+input[type="text"] {
+  background: transparent;
+  padding: 10px 10px;
+  font-size: large;
+  color: #f1f1f1;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #f1f1ff;
+}
+
+.container {
+  margin-top: 10px;
+  height: auto;
+  min-height: 85vh;
+  width: 100%;
+  background-color: #0d1117;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr);
+      grid-template-columns: repeat(20, 1fr);
+  color: #f9f9f9;
+}
+
+.container .inputContainer {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 8;
+  grid-column: 2/10;
+  background-color: #21262d;
+  border-radius: 8px;
+  padding: 0rem 0 1.5rem 0;
+}
+
+.container .inputContainer .editTools {
+  padding: 0.5rem 1rem;
+}
+
+.container .inputContainer .editTools .block {
+  margin-bottom: 1rem;
+}
+
+.container .inputContainer .editTools .block1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .inputContainer .editTools .block1 input {
+  margin-right: 10px;
+}
+
+.container .inputContainer .editTools .block2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .inputContainer .editTools .block2 input {
+  width: 100%;
+}
+
+.container .inputContainer .editTools .block3 {
+  padding: 1rem 2rem 1rem 0;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .inputContainer .editTools .block3 i {
+  font-size: xx-large;
+}
+
+.container .inputContainer .editTools .block4 {
+  margin-top: 10px;
+}
+
+.container .inputContainer .editTools .block4 textarea {
+  resize: none;
+  width: 90%;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  background-color: #e5e5e5;
+  border-radius: 8px;
+  min-height: 200px;
+}
+
+.container .inputContainer .editTools .btn {
+  float: right;
+  padding: 6px 8px;
+  border: none;
+  border-radius: 8px;
+  background-color: crimson;
+  color: #d4d1d1;
+  outline: none;
+  cursor: pointer;
+}
+
+.container .inputContainer .editTools .btn:hover {
+  background-color: #ad3950;
+}
+
+.container .inputContainer .editTools .btn2 {
+  float: left;
+}
+
+.container .outputContainer {
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 9;
+  grid-column: 11/20;
+  background-color: #fff;
+  border-radius: 8px;
+  word-wrap: break-word;
+}
+
+.container .outputContainer .output {
+  color: black;
+  padding: 1rem 1rem;
+}
+
+.boxTitle {
+  width: 100%;
+  text-transform: uppercase;
+  background-color: #121212;
+  color: #f9f9f9;
+  padding: 1rem 1rem;
+}
+
+label {
+  color: #c9c3c3;
+}
+
+.longInput {
+  width: 90%;
+  font-size: small;
+}
+
+.socialInput {
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+  width: 180px;
+}
+
+.hiddenBox {
+  display: hidden;
+  height: 1px;
+  width: 1px;
+  opacity: 0;
+}
+
+@media screen and (max-width: 1227px) {
+  .container {
+    margin-top: 10vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1rem 0rem;
+  }
+  .container .inputContainer {
+    width: 90%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin-bottom: 2rem;
+  }
+  .container .outputContainer {
+    height: auto;
+    width: 90%;
+  }
+  .block1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .block1 input {
+    width: 90%;
+  }
+  .block2 {
+    width: 100%;
+  }
+  .block2 input {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=content.css.map */
