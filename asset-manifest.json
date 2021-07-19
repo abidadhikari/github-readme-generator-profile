@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/github-readme-generator-profile/static/css/main.3fd45102.chunk.css",
-    "main.js": "/github-readme-generator-profile/static/js/main.5831288b.chunk.js",
-    "main.js.map": "/github-readme-generator-profile/static/js/main.5831288b.chunk.js.map",
+    "main.js": "/github-readme-generator-profile/static/js/main.ade5c0e2.chunk.js",
+    "main.js.map": "/github-readme-generator-profile/static/js/main.ade5c0e2.chunk.js.map",
     "runtime-main.js": "/github-readme-generator-profile/static/js/runtime-main.5458a7fa.js",
     "runtime-main.js.map": "/github-readme-generator-profile/static/js/runtime-main.5458a7fa.js.map",
     "static/css/2.68b64559.chunk.css": "/github-readme-generator-profile/static/css/2.68b64559.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.68b64559.chunk.css",
     "static/js/2.218516a1.chunk.js",
     "static/css/main.3fd45102.chunk.css",
-    "static/js/main.5831288b.chunk.js"
+    "static/js/main.ade5c0e2.chunk.js"
   ]
 }
