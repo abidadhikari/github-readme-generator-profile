@@ -96,7 +96,7 @@ const Content = () => {
     let hiddenBox = document.getElementById("hiddenBox");
     hiddenBox.value = code;
 
-    if (navigator.clipboard != undefined) {
+    if (navigator.clipboard !== undefined) {
       navigator.clipboard.writeText(code);
       toast.success("Code successfully copied");
     } else {

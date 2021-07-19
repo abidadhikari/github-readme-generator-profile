@@ -4,8 +4,9 @@ import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
 
+
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/github-readme-generator-profile">
     <App />
     </BrowserRouter>
 ,
